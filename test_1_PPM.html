@@ -22,9 +22,9 @@
           }
           else if(this.value == '3')
           {
-            $("#rangkuman").hide();
+            $("#rangkuman").show();
             $("#warna").hide();
-            $("#calculator").show();
+            $("#calculator").hide();
           }
         });
 
@@ -102,7 +102,53 @@
         </div>
         <div style='display:none;' id='rangkuman'>
           <label><b>Rangkuman</b></label>
+
+          <P>
+            Apa yang telah dipelajari:
+          </P>
+          <a href="#nav-panel" data-icon="bars" data-iconpos="notext">Jquery Mobile</a>
+          <P>
+            Angular JS
+          </P>
+          <div data-role="panel" data-display="push" data-theme="b" id="nav-panel">
+              <ul data-role="listview">
+                  <li data-icon="delete"><a href="#" data-rel="close">Close menu</a></li>
+                      <li>Accordion</li>
+                      <li>Ajax Navigation</li>
+                      <li>Autocomplete</li>
+                      <li>Buttons</li>
+                      <li>Checkboxes</li>
+                      <li>Collapsibles</li>
+                      <li>Controlgroup</li>
+                      <li>Dialogs</li>
+                      <li>Fixed toolbars</li>
+                      <li>Flip switch toggle</li>
+                      <li>Footer toolbar</li>
+                      <li>Form elements</li>
+                      <li>Grids</li>
+                      <li>Header toolbar</li>
+                      <li>Icons</li>
+                      <li>Links</li>
+                      <li>Listviews</li>
+                      <li>Loader overlay</li>
+                      <li>Navbar</li>
+                      <li>Navbar, persistent</li>
+                      <li>Pages</li>
+                      <li>New</li>
+                      <li>Popup</li>
+                      <li>Radio buttons</li>
+                      <li>Select</li>
+                      <li>Slider, single</li>
+                      <li>New</li>
+                      <li>New</li>
+                      <li>New</li>
+                      <li>Text inputs & textarea</li>
+                      <li>Transitions</li>
+              </ul>
+          </div>
         </div>
+
+
 
       </div>
       <div data-role=footer>
